@@ -29,11 +29,5 @@ public class DmnController {
 		return dmnTraffic_Violation;
 	}
 	
-	
-	
-	
-	
-	
-	
 
 }

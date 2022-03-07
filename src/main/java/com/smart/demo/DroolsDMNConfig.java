@@ -10,7 +10,7 @@ import org.kie.api.command.Command;
 import org.kie.api.command.KieCommands;
 import org.kie.dmn.api.core.DMNContext;
 import org.kie.dmn.api.core.DMNDecisionResult;
-import org.kie.dmn.api.core.DMNResult;
+import org.kie.dmn.api.core.DMNResult; 
 import org.kie.internal.command.CommandFactory;
 import org.kie.server.api.marshalling.MarshallingFormat;
 import org.kie.server.api.model.ServiceResponse;
@@ -33,7 +33,7 @@ public class DroolsDMNConfig {
 	@Value("${kie.dmnTraffic.containerId}")
 	private String dmnTrafficcontainerId;
 
-	@Value("${kie.server.user}")
+	@Value("${kie.server.user}") 
 	private String user;
 
 	@Value("${kie.server.pwd}")
@@ -127,6 +127,7 @@ public class DroolsDMNConfig {
 				traffic_Violation.getDriver().setSuspended(true);
 			}
 		}
+		
 		return traffic_Violation;
 	}
 
