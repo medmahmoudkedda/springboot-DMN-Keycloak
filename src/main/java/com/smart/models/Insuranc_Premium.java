@@ -1,4 +1,4 @@
-package com.smart.demo;
+package com.smart.models;
 
 public class Insuranc_Premium {
 	private boolean hasPreIncident;
@@ -27,6 +27,7 @@ public class Insuranc_Premium {
 		this.age = age;
 	}
 
+
 	public double getPremium() {
 		return premium;
 	}
@@ -36,6 +37,11 @@ public class Insuranc_Premium {
 	}
 	
 	
+	@Override
+	public String toString() {
+		return "Insuranc_Premium [hasPreIncident=" + hasPreIncident + ", age=" + age + ", premium=" + premium + "]";
+	}
+
 	
 	
 

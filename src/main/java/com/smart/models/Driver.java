@@ -1,4 +1,4 @@
-package com.smart.demo;
+package com.smart.models;
 
 public class Driver {
 	private int points;

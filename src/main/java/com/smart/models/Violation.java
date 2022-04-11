@@ -1,4 +1,4 @@
-package com.smart.demo;
+package com.smart.models;
 
 public class Violation {
 	private float actual_speed;

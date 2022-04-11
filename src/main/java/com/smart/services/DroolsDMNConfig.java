@@ -1,4 +1,4 @@
-package com.smart.demo;
+package com.smart.services;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,6 +20,10 @@ import org.kie.server.client.KieServicesConfiguration;
 import org.kie.server.client.KieServicesFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+
+import com.smart.models.BMI;
+import com.smart.models.Insuranc_Premium;
+import com.smart.models.Traffic_Violation;
 
 @Service
 public class DroolsDMNConfig {

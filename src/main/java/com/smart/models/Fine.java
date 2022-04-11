@@ -1,4 +1,4 @@
-package com.smart.demo;
+package com.smart.models;
 
 public class Fine {
 	private double amount;

@@ -1,4 +1,4 @@
-package com.smart.demo;
+package com.smart.models;
 
 public class Traffic_Violation {
 	private Violation violation;
@@ -23,7 +23,7 @@ public class Traffic_Violation {
 	public void setDriver(Driver driver) {
 		this.driver = driver;
 	}
-
+ 
 	@Override
 	public String toString() {
 		return "Traffic_Violation [violation=" + violation + ", driver=" + driver + "]";

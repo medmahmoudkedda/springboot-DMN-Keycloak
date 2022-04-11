@@ -1,4 +1,4 @@
-package com.smart.demo;
+package com.smart.models;
 
 public class BMI {
 	
@@ -21,6 +21,7 @@ public class BMI {
 	public void setHeight(float height) {
 		this.height = height;
 	}
+	
 	public float getWeight() {
 		return weight;
 	}
